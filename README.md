@@ -28,7 +28,7 @@ Instead of creating multiple small demo apps, this repository contains **all con
 
 ## 🗂 Project Structure
 ```md
-SwiftUIJourney
+SwiftUIForge
 │
 ├── App
 │   ├── SwiftUIJourneyApp.swift
