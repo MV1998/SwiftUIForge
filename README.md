@@ -28,41 +28,76 @@ Instead of creating multiple small demo apps, this repository contains **all con
 
 ## 🗂 Project Structure
 
+│
 ├── App
-│   ├── SwiftUIJourneyApp.swift
-│   └── AppEntryView.swift
+│ ├── SwiftUIJourneyApp.swift
+│ └── AppEntryView.swift
 │
 ├── Core
-│   ├── Models
-│   ├── Services
-│   ├── Networking
-│   ├── Persistence
-│   └── Utilities
+│ ├── Models
+│ ├── Services
+│ ├── Networking
+│ ├── Persistence
+│ └── Utilities
 │
 ├── Fundamentals
-│   ├── SwiftBasics
-│   └── SwiftUIBasics
+│ ├── SwiftBasics
+│ │ ├── VariablesView.swift
+│ │ ├── FunctionsView.swift
+│ │ └── OptionalsView.swift
+│ │
+│ └── SwiftUIBasics
+│ ├── TextAndImagesView.swift
+│ ├── StacksAndLayoutsView.swift
+│ └── ButtonsAndActionsView.swift
 │
 ├── Intermediate
-│   ├── StateAndDataFlow
-│   ├── Navigation
-│   └── ListsAndGrids
+│ ├── StateAndDataFlow
+│ │ ├── StateView.swift
+│ │ ├── BindingView.swift
+│ │ ├── ObservableObjectView.swift
+│ │ └── EnvironmentView.swift
+│ │
+│ ├── Navigation
+│ │ ├── NavigationStackView.swift
+│ │ └── TabViewExample.swift
+│ │
+│ └── ListsAndGrids
+│ ├── ListView.swift
+│ └── LazyGridView.swift
 │
 ├── Advanced
-│   ├── Animations
-│   ├── Concurrency
-│   ├── Networking
-│   └── Architecture
+│ ├── Animations
+│ │ ├── BasicAnimationsView.swift
+│ │ └── MatchedGeometryView.swift
+│ │
+│ ├── Concurrency
+│ │ ├── AsyncAwaitView.swift
+│ │ └── TaskCancellationView.swift
+│ │
+│ ├── Networking
+│ │ ├── APIService.swift
+│ │ └── NetworkedListView.swift
+│ │
+│ └── Architecture
+│ └── MVVM
+│ ├── ViewModels
+│ └── Views
 │
 ├── Components
-│   └── ReusableViews
+│ ├── Buttons
+│ ├── Cards
+│ └── ReusableViews
 │
 ├── Extensions
+│ ├── View+Extensions.swift
+│ └── Color+Extensions.swift
 │
 ├── Resources
-│   ├── Assets.xcassets
-│   └── Preview Content
-
+│ ├── Assets.xcassets
+│ └── Preview Content
+│
+└── README.md
 
 ## 📁 Folder Explanation
 
