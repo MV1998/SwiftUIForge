@@ -11,6 +11,11 @@ struct AppEntryView: View {
     var body: some View {
         NavigationStack {
             List {
+                Section("Fundamentals") {
+                    NavigationLink("SwiftUIBasic") {
+                        CoreLayoutContainerEntryView()
+                    }
+                }
                 Section("Intermediate") {
                     NavigationLink("State & Data Flow") {
                         StateAndDataFlowEntryView()
