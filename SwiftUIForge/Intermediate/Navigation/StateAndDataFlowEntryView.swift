@@ -14,29 +14,8 @@ struct StateAndDataFlowEntryView: View {
                 NavigationLink("Counter App") {
                     CounterView()
                 }
-                NavigationLink("Counter App") {
-                    CounterView()
-                }
-                NavigationLink("Counter App") {
-                    CounterView()
-                }
-                NavigationLink("Counter App") {
-                    CounterView()
-                }
-                NavigationLink("Counter App") {
-                    CounterView()
-                }
-                NavigationLink("Counter App") {
-                    CounterView()
-                }
-                NavigationLink("Counter App") {
-                    CounterView()
-                }
-                NavigationLink("Counter App") {
-                    CounterView()
-                }
-                NavigationLink("Counter App") {
-                    CounterView()
+                NavigationLink("Fruit List App") {
+                    FruitListWithSearchApp()
                 }
             }
         }
