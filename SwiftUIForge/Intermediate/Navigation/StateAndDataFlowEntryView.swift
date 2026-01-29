@@ -17,6 +17,9 @@ struct StateAndDataFlowEntryView: View {
                 NavigationLink("Fruit List App") {
                     FruitListWithSearchApp()
                 }
+                NavigationLink("EventHandlingModifiersList") {
+                    EventHandlingModifiersList()
+                }
             }
         }
         .navigationTitle("State & Data Flow")
